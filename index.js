@@ -3,7 +3,7 @@ angular
   .module('heroApp', [
     'ngComponentRouter'
   ])
-  .controller('mainCtrl', AppController);
+  .controller('AppController', AppController);
 
 AppController.$inject = ['$router'];
 function AppController ($router) {
