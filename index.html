@@ -5,14 +5,14 @@
   <title>Document</title>
 </head>
 <body ng-app="heroApp">
-    <!-- components match only elements -->
-  <div ng-controller="mainCtrl as ctrl">
-    <b>Hero</b><br>
-    <hero-detail hero="ctrl.hero"></hero-detail>
-  </div>
+  
+  <!-- components match only elements -->
+  <hero-list></hero-list>
   
   <script src="node_modules/angular/angular.js"></script>
   <script src="index.js"></script>
+  <script src="heroList.js"></script>
   <script src="heroDetail.js"></script>
+  <script src="editableField.js"></script>
 </body>
 </html>
