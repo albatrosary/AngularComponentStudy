@@ -9,7 +9,7 @@ function HeroDetailController($scope, $element, $attrs) {
 angular
   .module('heroApp')
   .component('heroDetail', {
-    templateUrl: 'heroDetail.html',
+    templateUrl: 'components/step2/heroDetail.html',
     controller: HeroDetailController,
     bindings: {
       hero: '<',

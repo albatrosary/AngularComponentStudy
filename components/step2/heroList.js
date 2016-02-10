@@ -28,6 +28,6 @@ function HeroListController($scope, $element, $attrs) {
 angular
   .module('heroApp')
   .component('heroList', {
-    templateUrl: 'heroList.html',
+    templateUrl: 'components/step2/heroList.html',
     controller: HeroListController
   });

@@ -25,12 +25,14 @@ function EditableFieldController($scope, $element, $attrs) {
   };
 }
 
-angular.module('heroApp').component('editableField', {
-  templateUrl: 'editableField.html',
-  controller: EditableFieldController,
-  bindings: {
-    fieldValue: '<',
-    fieldType: '@?',
-    onUpdate: '&'
-  }
-});
+angular
+  .module('heroApp')
+  .component('editableField', {
+    templateUrl: 'components/step2/editableField.html',
+    controller: EditableFieldController,
+    bindings: {
+      fieldValue: '<',
+      fieldType: '@?',
+      onUpdate: '&'
+    }
+  });
